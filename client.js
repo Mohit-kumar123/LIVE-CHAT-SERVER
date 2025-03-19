@@ -1,4 +1,4 @@
-const socket=io();
+const socket = io("https://live-chat-server-murex.vercel.app");
 const form=document.getElementById("sendcont");
 const messageInput=document.getElementById("send");
 const messageContainer=document.getElementById("messagebox");
