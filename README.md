@@ -19,12 +19,8 @@ A real-time chat application that allows multiple users to join, send messages, 
 │   ├── server.js           # Backend server code using Node.js and Socket.io
 │   ├── package.json        # Project dependencies and scripts
 │   └── README.md           # Instructions specific to the backend
-├── 📁 frontend
-│   ├── index.html          # Main HTML file for the chat UI
-│   ├── client.js           # Frontend logic for Socket.io communication
-│   ├── style.css           # Styles for the chat interface
-│   └── README.md           # Instructions specific to the frontend
-├── 📁 public               # Static files (if any)
+├── index.html              # Main HTML file for the chat UI
+│── client.js               #Frontend logic for Socket.io communication
 └── README.md               # Main project README
 ```
 
