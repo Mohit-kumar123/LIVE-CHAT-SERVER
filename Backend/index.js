@@ -6,7 +6,7 @@ const port = process.env.PORT || 8000;
 var http = require("http").Server(app);
 var io = require("socket.io")(http, {
     cors: {
-        origin: "https://mohit-kumar123.github.io", // Your frontend URL
+        origin: "https://mohit-kumar123.github.io/LIVE-CHAT-SERVER/", // Your frontend URL
         methods: ["GET", "POST"]
     }
 });
